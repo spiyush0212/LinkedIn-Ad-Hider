@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="title">LinkedIn Ad Hider</div>
+    <div class="subtitle">A cleaner LinkedIn feed</div>
+  </div>
+
+  <div class="content">
+
+    <div class="count-card">
+      <div class="count-row">
+        <div>
+          <div class="count" id="sessionCount">0</div>
+          <div class="label">hidden this session</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div>
+          <div class="count" id="totalCount">0</div>
+          <div class="label">hidden in total</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="status-row">
+      <div class="status-label">Protection</div>
+      <div class="status" id="status">Enabled</div>
+    </div>
+
+    <label class="toggle-container">
+      <span>Hide promoted posts</span>
+
+      <span class="switch">
+        <input type="checkbox" id="enabled">
+        <span class="slider"></span>
+      </span>
+    </label>
+
+    <button class="feedback" id="feedback">
+      Give Feedback
+    </button>
+
+  </div>
+
+  <div class="footer">
+    LinkedIn Ad Hider · <span id="version"></span>
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
