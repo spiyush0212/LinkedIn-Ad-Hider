@@ -1,4 +1,9 @@
 (() => {
+
+  if (window.location.pathname.startsWith("/jobs")) {
+    return;
+  }
+
   const HIDDEN_CLASS = "__linkedin_promoted_hidden";
 
   let extensionEnabled = true;
