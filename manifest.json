@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn Ad Hider",
-  "version": "2.1.0",
+  "name": "LinkedIn Ad Blocker - Remove Ads",
+  "version": "2.2.0",
   "description": "Automatically hides promoted and sponsored posts from your LinkedIn feed.",
   "permissions": ["storage"],
   "icons": {
